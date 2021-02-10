@@ -36,7 +36,7 @@ eclipse
 
 sudo tar -xf ~/SharedToHost/9.apparmor.tools.tar.gz -C /
 sudo apt install apparmor-easyprof -y
-sudo apt install dapparmor-notify -y
-sudo apt install certspotter-notify -y
+sudo apt install apparmor-notify -y
+sudo apt install certspotter -y
 sudo rm -f /var/cache/apt/archives/*.deb
 
