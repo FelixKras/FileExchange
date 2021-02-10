@@ -46,5 +46,13 @@ sudo tar cvfz ~/SharedToHost/7.dotnet3.1.tar.gz /var/cache/apt/archives/*.deb --
 # dotnetcore 5.0
 sudo apt-get update
 sudo apt install dotnet-sdk-5.0 --download-only -y
-sudo apt install dotnet-runtime-5.0--download-only -y
+sudo apt install dotnet-runtime-5.0 --download-only -y
 sudo tar cvfz ~/SharedToHost/8.dotnet5.0.tar.gz /var/cache/apt/archives/*.deb --remove-files
+
+# app armor tools
+sudo apt-get update
+sudo apt install apparmor-easyprof --download-only -y
+sudo apt install apparmor-notify --download-only -y
+sudo apt install certspotter --download-only -y
+sudo tar cvfz ~/SharedToHost/9.apparmor.tools.tar.gz /var/cache/apt/archives/*.deb --remove-files
+
